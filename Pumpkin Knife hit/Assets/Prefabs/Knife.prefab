@@ -48,6 +48,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rbKnife: {fileID: 606598373094756007}
   stuck: 0
+  patric: {fileID: 2760954014764807226, guid: bf73d31bd5ac7ef4893b6c2cfa352fd5, type: 3}
 --- !u!212 &606598373094756027
 SpriteRenderer:
   m_ObjectHideFlags: 0

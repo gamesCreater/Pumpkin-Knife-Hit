@@ -50,10 +50,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rbPumpkin: {fileID: 971443738883907770}
+  rotationPumpkin: {x: 0, y: 0, z: 0, w: 0}
   destrucktPumpkinPref: {fileID: 4086789424111684404, guid: 4e440708e96f32a4991f7042bb0f6bf0,
     type: 3}
   kn: {fileID: -2419226312968584797, guid: aa4d7eed2530ce24d8e3d376c6e58fab, type: 3}
   gm: {fileID: 0}
+  countHitsInPum: 0
 --- !u!212 &971443738883907769
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -156,7 +158,7 @@ GameObject:
   - component: {fileID: 7347231499644481006}
   m_Layer: 0
   m_Name: Down
-  m_TagString: Knife
+  m_TagString: KnifeInPum
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -213,7 +215,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: b2990cc53b3f1b640bd0100eb64c0121, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -291,7 +293,7 @@ GameObject:
   - component: {fileID: 7024106071539038749}
   m_Layer: 0
   m_Name: Right
-  m_TagString: Knife
+  m_TagString: KnifeInPum
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -348,7 +350,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: b2990cc53b3f1b640bd0100eb64c0121, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -426,7 +428,7 @@ GameObject:
   - component: {fileID: 7510695078086729153}
   m_Layer: 0
   m_Name: Left
-  m_TagString: Knife
+  m_TagString: KnifeInPum
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -483,7 +485,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: b2990cc53b3f1b640bd0100eb64c0121, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

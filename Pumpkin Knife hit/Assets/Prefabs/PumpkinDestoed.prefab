@@ -579,7 +579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0ee4d0523950104e87d93877494deb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  directionForce: {x: 75, y: 200, z: 0}
+  directionForce: {x: 95, y: 220, z: 0}
   spin: 10
   speed: 10
   rbPumpkinParts: {fileID: 2256963569391153541}

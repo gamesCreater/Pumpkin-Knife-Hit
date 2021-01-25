@@ -7,8 +7,10 @@ ScriptsOnlyBuild:
     - GameManage
     - Knife
     - KnifeMover
+    - KnifeType
     - MenuScene
     - Pumpkin
+    - SkinsKnife
     - SoundProduced
     - SoundScroll
     Unity.Rider.Editor.dll:
@@ -23,10 +25,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -77,27 +77,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11606}
     - Class: 114
-      Script: {instanceID: 11778}
+      Script: {instanceID: 11780}
     - Class: 114
-      Script: {instanceID: 11782}
+      Script: {instanceID: 11784}
     - Class: 114
-      Script: {instanceID: 11802}
+      Script: {instanceID: 11804}
     - Class: 114
-      Script: {instanceID: 11894}
+      Script: {instanceID: 11896}
     - Class: 114
-      Script: {instanceID: 12178}
+      Script: {instanceID: 12180}
     - Class: 114
-      Script: {instanceID: 12354}
+      Script: {instanceID: 12356}
     - Class: 114
-      Script: {instanceID: 12404}
+      Script: {instanceID: 12406}
     - Class: 114
-      Script: {instanceID: 12612}
+      Script: {instanceID: 12614}
     - Class: 114
-      Script: {instanceID: 12676}
+      Script: {instanceID: 12678}
     - Class: 114
-      Script: {instanceID: 12796}
+      Script: {instanceID: 12798}
     - Class: 114
-      Script: {instanceID: 13036}
+      Script: {instanceID: 13040}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -162,25 +162,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11606}
     - Class: 114
-      Script: {instanceID: 11782}
+      Script: {instanceID: 11784}
     - Class: 114
-      Script: {instanceID: 11810}
+      Script: {instanceID: 11812}
     - Class: 114
-      Script: {instanceID: 12178}
+      Script: {instanceID: 12180}
     - Class: 114
-      Script: {instanceID: 12404}
+      Script: {instanceID: 12406}
     - Class: 114
-      Script: {instanceID: 12418}
+      Script: {instanceID: 12420}
     - Class: 114
-      Script: {instanceID: 12612}
+      Script: {instanceID: 12614}
     - Class: 114
-      Script: {instanceID: 12652}
+      Script: {instanceID: 12654}
     - Class: 114
-      Script: {instanceID: 12676}
+      Script: {instanceID: 12678}
     - Class: 114
-      Script: {instanceID: 12834}
+      Script: {instanceID: 12836}
     - Class: 114
-      Script: {instanceID: 13036}
+      Script: {instanceID: 13040}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -212,6 +212,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 70
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 104
@@ -227,21 +231,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11606}
     - Class: 114
-      Script: {instanceID: 11782}
+      Script: {instanceID: 11684}
     - Class: 114
-      Script: {instanceID: 11884}
+      Script: {instanceID: 11784}
     - Class: 114
-      Script: {instanceID: 12178}
+      Script: {instanceID: 11886}
     - Class: 114
-      Script: {instanceID: 12404}
+      Script: {instanceID: 12180}
     - Class: 114
-      Script: {instanceID: 12612}
+      Script: {instanceID: 12406}
     - Class: 114
-      Script: {instanceID: 12652}
+      Script: {instanceID: 12614}
     - Class: 114
-      Script: {instanceID: 12676}
+      Script: {instanceID: 12654}
     - Class: 114
-      Script: {instanceID: 13036}
+      Script: {instanceID: 12678}
+    - Class: 114
+      Script: {instanceID: 12798}
+    - Class: 114
+      Script: {instanceID: 12858}
+    - Class: 114
+      Script: {instanceID: 13040}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -249,6 +259,10 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 212
       Script: {instanceID: 0}
@@ -423,6 +437,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 783cfa6dff81e0cfa2f1ade8d0258131
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: KnifeType
   - hash:
       serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
@@ -647,6 +667,12 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
+      Hash: 96e38beed5dd5052c867ca7d2b32a0b5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SkinsKnife
+  - hash:
+      serializedVersion: 2
       Hash: df434544c9f7b33d1cc7e635b180d279
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -746,4 +772,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/GameScene.unity
   - Assets/Scenes/OptionsGam.unity
-  playerPath: C:/SDA/Build/PumpkinProj(A)/Pumpkin Knife Hit(A).apk
+  playerPath: C:/SDA/Build/PumpkinProj(A)/Pumpkin Knife Hit(A.0.2v).apk

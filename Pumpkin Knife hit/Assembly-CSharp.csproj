@@ -72,7 +72,9 @@
     <Compile Include="Assets\Scripts\Game\Pumpkin.cs" />
     <Compile Include="Assets\Scripts\MainMenu\MenuScene.cs" />
     <Compile Include="Assets\Scripts\MainMenu\SoundProduced.cs" />
-    <Compile Include="Assets\Scripts\MainMenu\SoundScroll.cs" />
+    <Compile Include="Assets\Scripts\Options\KnifeType.cs" />
+    <Compile Include="Assets\Scripts\Options\SkinsKnife.cs" />
+    <Compile Include="Assets\Scripts\Options\SoundScroll.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
